@@ -1,6 +1,5 @@
 language: generic
-
- script:
+script:
   - echo $TRAVIS_COMMIT
   - echo $TRAVIS_TAG
   - echo $TRAVIS_BRANCH
