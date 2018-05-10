@@ -4,10 +4,4 @@ stages:
   - test
   - deploy
   
-jobs:
-  include:
-    - stage: test
-     - echo $TEST STAGE******
-    - # stage name not required, will continue to use `test`
-     - stage: deploy
-      - echo $DEPLOY STAGE******
+
