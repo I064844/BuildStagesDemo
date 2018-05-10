@@ -3,5 +3,12 @@ script:
   - echo $TRAVIS_COMMIT
   - echo $TRAVIS_TAG
   - echo $TRAVIS_BRANCH
-  - echo $VIGNESH
   
+ jobs:
+  include:
+    - stage: test
+ script: 
+  - echo $TRAVIS BRANCH 
+     - stage: print
+    script: 
+   - echo $VIGNESH  VIGNESH
