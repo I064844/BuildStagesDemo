@@ -2,8 +2,7 @@ language: generic
 script:
   - echo $TRAVIS_COMMIT
   - echo $TRAVIS_TAG
- #- echo $TRAVIS_BRANCH
-include:
+ include:
    - stage: test
  script:
   - echo $TRAVIS BRANCH
