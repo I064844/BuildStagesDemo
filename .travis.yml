@@ -4,10 +4,7 @@ script:
   - echo $TRAVIS_TAG
   - echo $TRAVIS_BRANCH
 jobs:
-  include:
+ include:
     - stage: test
- script: 
-  - echo $TRAVIS BRANCH 
-     - stage: print
-    script: 
-  - echo $VIGNESH  VIGNESH
+ script:
+ echo $TRAVIS BRANCH
