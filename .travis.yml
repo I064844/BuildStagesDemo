@@ -2,6 +2,8 @@ language: generic
 
 stages:
   - test
+  - echo $STAGE1_TEST
   - deploy
+  - echo $STAGE2_DEPLOY
   
 
