@@ -6,4 +6,8 @@ stages:
   - deploy
   - echo $STAGE2_DEPLOY
   
+  script:
+  - echo $TRAVIS_COMMIT
+  - echo $TRAVIS_TAG
+  - echo $TRAVIS_BRANCH
 
