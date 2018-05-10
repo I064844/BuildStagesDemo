@@ -6,4 +6,4 @@ script:
 include:
    - stage: test
  script:
- echo $TRAVIS BRANCH
+  - echo $TRAVIS BRANCH
