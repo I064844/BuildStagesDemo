@@ -1,12 +1,14 @@
 language: generic
-script:
-  - echo $TRAVIS_COMMIT
-  - echo $TRAVIS_TAG
+stages:
+  - compile
+  - test
+  - deploy
 env:
   - FOO=one
   - FOO=two
 jobs:
- include:
-   - stage: test
- script:
-  - echo $TRAVIS BRANCH
+  include:
+    - stage: compile
+      script: ./compile
+    - stage: deploy
+      script: ./deploy
