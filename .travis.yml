@@ -9,6 +9,6 @@ env:
 jobs:
   include:
     - stage: compile
-      script: ./compile
+      script: echo$COMPILE COMPILE
     - stage: deploy
-      script: ./deploy
+      script: echo$DEPLOY DEPLOY
