@@ -2,6 +2,7 @@ language: generic
 script:
   - echo $TRAVIS_COMMIT
   - echo $TRAVIS_TAG
+jobs:
  include:
    - stage: test
  script:
