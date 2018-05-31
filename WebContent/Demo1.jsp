@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<p> ("ALL is WELL ----> FROM DEMO JSP"); </p>
+<p> ("ALL is WELL ----> FROM DEMO JSPsdsds"); </p>
 <p>Today's date: <%= (new java.util.Date()).toLocaleString()%></p>
 
 
